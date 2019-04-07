@@ -22,15 +22,8 @@ const HomePageTemplate = ({
       <div className='hero-body'>
         <div className='container'>
           <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='section'>
-                <h1 className='title'>
-                  {title}
-                </h1>
-                <h2 className='subtitle'>
-                  Makers and Developers
-                </h2>
-              </div>
+            <div className='column is-6 is-offset-3'>
+              <img src='/img/motmot.png' />
             </div>
           </div>
         </div>
@@ -38,7 +31,6 @@ const HomePageTemplate = ({
     </section>
     <section className='section section--gradient'>
       <div className='container'>
-
         <div className='section'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
